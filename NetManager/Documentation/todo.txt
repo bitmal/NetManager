@@ -1,0 +1,17 @@
+[x] 0) make sure telnet is enabled on router (would prefer ssh, but not a feature in current router firmware)
+- telnet is LAN only on current firmware
+- telnet protocol is raw text, so use with caution... do not expose to WAN
+
+1) detect wifi connection
+	- swap to other band on disconnect
+
+[~] 2) access router using telnet library
+	- reboot router
+
+3) swap back to 2.4 ghz band when available
+
+tools/libs:
+- managed native wifi library
+	-> https://social.technet.microsoft.com/wiki/contents/articles/39587.c-managed-wifi-api.aspx
+- telnet library
+	-> https://www.nuget.org/packages/Telnet/
