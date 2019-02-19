@@ -6,9 +6,15 @@
 	- swap to other band on disconnect
 
 [~] 2) access router using telnet library
-	- reboot router
+	[x] restart router
+		-> works, but need to refactor
 
 3) swap back to 2.4 ghz band when available
+
+4) add in a simple command system for changing settings
+-> ie. current login and password, frequency of wifi state query
+
+5) elaborate as a background program
 
 tools/libs:
 - managed native wifi library
